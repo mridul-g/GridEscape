@@ -15,7 +15,7 @@ void calculate(int R, int C, int K)
 
     if ((R >= 2 && C >= 2 && R * C - K >= 4) || R * C - K == 0)
     {
-        cout << "Possible \n";
+        cout << "POSSIBLE \n";
 
         if (R * C - K < C + 2)
         {
@@ -56,7 +56,7 @@ void calculate(int R, int C, int K)
 
 
     else {
-        cout << "not possible";
+        cout << "IMPOSSIBLE";
 
     }
     cout << endl;
